@@ -1459,6 +1459,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@clover-network/node-types@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "@clover-network/node-types@npm:1.0.4"
+  checksum: c7ab0c3f2f8d2d56383b1b095aec7bbff5231baa68dad64e4a97b23e2da82800f7cf7a1508e6046e0090072d25e10d9b6fe943537dd6b85aa8ba7fab3126306e
+  languageName: node
+  linkType: hard
+
 "@crustio/crust-pin@npm:^1.0.0":
   version: 1.0.0
   resolution: "@crustio/crust-pin@npm:1.0.0"
@@ -3305,6 +3312,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@polkadot/test-support@workspace:packages/test-support"
   dependencies:
+    "@clover-network/node-types": ^1.0.4
     "@polkadot/types-support": ^6.0.5
     "@testing-library/jest-dom": ^5.14.1
     "@testing-library/react": ^12.1.0

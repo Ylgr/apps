@@ -4,9 +4,13 @@
 import { typesChain } from '@phala/typedefs';
 
 import CrustMaxwell from './crust-maxwell';
+import cloverTypes from './clover';
 
 // alphabetical, based on the actual displayed name
 export default {
   ...typesChain,
-  'Crust Maxwell': CrustMaxwell
+  'Crust Maxwell': CrustMaxwell,
+  'Development': cloverTypes,
+  'bein': cloverTypes,
+  'Bein': cloverTypes,
 };
