@@ -29,7 +29,9 @@ import chainRococoTrick from './chains/rococo-trick.svg';
 import chainShiden from './chains/shiden.png';
 import chainSnakenet from './chains/snakenet.svg';
 import chainSpanner from './chains/spanner.png';
+import chainStandard from './chains/standard.png';
 import chainUnique from './chains/unique.svg';
+import chainUnorthodox from './chains/unorthodox.png';
 import extensionPolkadotJs from './extensions/polkadot-js.svg';
 import externalCommonwealth from './external/commonwealth.png';
 import externalDotreasury from './external/dotreasury.svg';
@@ -212,6 +214,7 @@ export const chainLogos = Object.entries({
   Moonrock: nodeMoonrock,
   Moonshadow: moonshadow,
   'mybank.network PC1': mybank,
+  NFTMart: nodeNFTMart,
   'NFTMart Staging': nodeNFTMart,
   'NFTMart Testnet': nodeNFTMart,
   'OAK Testnet': oakTestnet,
@@ -223,6 +226,7 @@ export const chainLogos = Object.entries({
   'Parami PC2': nodeParami,
   'Phala PC1': nodePhala,
   'PHOENIX PC1': nodePhoenix,
+  'Polkadex Mainnet': nodePolkadex,
   'Polkadex Testnet': nodePolkadex,
   'PolkaFoundry PC1': nodePolkaFoundry,
   'Pontem Testnet': nodePontem,
@@ -236,6 +240,8 @@ export const chainLogos = Object.entries({
   SingLavender: nodeSingLavender,
   Spanner: chainSpanner,
   'Spartan Testnet': nodeSubspace,
+  Standard: chainStandard,
+  'Standard Kusama Parachain': chainUnorthodox,
   Statemine: nodeStatemine,
   'Statemine Test': nodeStatemine,
   Statemint: nodeStatemine,
@@ -256,6 +262,7 @@ export const chainLogos = Object.entries({
   'UniArts Mainnet': nodeUniarts,
   Unique: chainUnique,
   'Unit Network': nodeUnitv,
+  Unorthodox: chainUnorthodox,
   Vln: nodeVln,
   'VLN PC': nodeVln,
   Web3games: nodeWeb3games,
@@ -337,6 +344,7 @@ export const nodeLogos = Object.entries({
   'Manta Parachain Collator': nodeManta,
   Moonrock: nodeMoonrock,
   'mybank.network': mybank,
+  NFTMart: nodeNFTMart,
   'NFTMart Staging': nodeNFTMart,
   'NFTMart Testnet': nodeNFTMart,
   'node-template': nodeSubstrate,
@@ -557,6 +565,7 @@ export const namedLogos: Record<string, unknown> = {
   rococoPolkaFoundry: nodePolkaFoundry,
   rococoPrism: nodePrism,
   rococoSingLavender: nodeSingLavender,
+  rococoStandard: chainStandard,
   rococoStatemint: nodeStatemine,
   rococoSubDAO: nodeSubDAO,
   rococoSubsocial: nodeSubsocial,
@@ -593,9 +602,11 @@ export const namedLogos: Record<string, unknown> = {
   uniarts: nodeUniarts,
   unique: nodeUnique,
   unitv: nodeUnitv,
+  unorthodox: chainUnorthodox,
   vln: nodeVln,
   web3games: nodeWeb3games,
   westend: nodeWestend,
+  westendStandard: chainStandard,
   westlake: nodeWestlake,
   westmint: nodeStatemine,
   whala: nodeWhala,

@@ -108,8 +108,7 @@ export function createProduction (t: TFunction, firstOnly: boolean, withSort: bo
       providers: {
         HydraDX: 'wss://rpc-01.snakenet.hydradx.io',
         'Galactic Council': 'wss://rpc-02.snakenet.hydradx.io',
-        Archives: 'wss://archive.snakenet.hydradx.io',
-        Pinknode: 'wss://rpc.pinknode.io/lerna/explorer'
+        Archives: 'wss://archive.snakenet.hydradx.io'
       }
     },
     {
@@ -129,6 +128,13 @@ export function createProduction (t: TFunction, firstOnly: boolean, withSort: bo
       }
     },
     {
+      info: 'nftmart',
+      text: t('rpc.prod.nftmart', 'NFTMart', { ns: 'apps-config' }),
+      providers: {
+        NFTMart: 'wss://mainnet.nftmart.io/rpc/ws'
+      }
+    },
+    {
       info: 'nodle',
       text: t('rpc.prod.nodle-main', 'Nodle', { ns: 'apps-config' }),
       providers: {
@@ -142,6 +148,13 @@ export function createProduction (t: TFunction, firstOnly: boolean, withSort: bo
       text: t('rpc.prod.plasm', 'Plasm', { ns: 'apps-config' }),
       providers: {
         'Stake Technologies': 'wss://rpc.plasmnet.io/'
+      }
+    },
+    {
+      info: 'polkadex',
+      text: t('rpc.prod.polkadex', 'Polkadex', { ns: 'apps-config' }),
+      providers: {
+        'Polkadex Team': 'wss://mainnet.polkadex.trade'
       }
     },
     {
@@ -165,8 +178,8 @@ export function createProduction (t: TFunction, firstOnly: boolean, withSort: bo
         'SORA Parliament Ministry of Finance #2': 'wss://mof2.sora.org',
         'SORA Parliament Ministry of Finance': 'wss://ws.mof.sora.org',
         'SORA Parliament Ministry of Finance #3': 'wss://mof3.sora.org',
-        Soramitsu: 'wss://ws.alb.sora.org',
-        'SORA Community (Lux8)': 'wss://sora.lux8.net'
+        Soramitsu: 'wss://ws.alb.sora.org'
+        // 'SORA Community (Lux8)': 'wss://sora.lux8.net' // https://github.com/polkadot-js/apps/issues/6195
       }
     },
     {
